@@ -45,17 +45,6 @@ public class Unzip {
 						// create a new file
 						File file = new File(outputPath +entry.getName());
 						
-						// create file parent directory if does not exist
-						if(!new File(file.getParent()).exists())
-							new File(file.getParent()).mkdirs();
-						
-						// get new file output stream
-						FileOutputStream fos = new FileOutputStream(file); 
-				
-						// copy bytes
-						while ((len = zip.read(buffer)) > 0) {
-				       		fos.write(buffer, 0, len);
-				        }
 						
 						fos.close();
 					}
