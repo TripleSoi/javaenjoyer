@@ -24,6 +24,11 @@ public class Unzip {
 	    		outputDirectory.delete();
 	    		
 	    	outputDirectory.mkdir();
+ergompprepokjggroigejweiourghniopuwhenr
+	\wR
+	gHEth
+	reTH
+ryjtryjtyj
 	    	
 
 	    	// 2.0 Unzip (create folders & copy files)
