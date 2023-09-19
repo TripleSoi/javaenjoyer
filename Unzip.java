@@ -16,8 +16,9 @@ public class Unzip {
 		 		outputPath = "";
 		 	else
 		 		outputPath+=File.separator;
-		 	
-	
+
+		 // 1.0 Create output directory
+		 File outputDirectory = new File(outputPath);
 				
 				// 2.2 Go over each entry "file/folder" in zip file
 				while((entry = zip.getNextEntry()) != null){
